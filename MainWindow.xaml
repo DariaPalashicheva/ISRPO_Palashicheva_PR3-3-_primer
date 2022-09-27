@@ -28,14 +28,14 @@
         <TextBox x:Name="Z" Grid.Row="2" Grid.Column="1" Margin="5"/>
         <StackPanel x:Name="stackPanel" Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" Grid.ColumnSpan="2" Margin="50,10,10,10">
             <Label Content="F(x)" FontSize="16"/>
-            <RadioButton GroupName="Funkciy" Content="sin(x)" FontSize="16" IsChecked="True"/>
-            <RadioButton GroupName="Funkciy" Content="cos(x)" FontSize="16"/>
-            <RadioButton GroupName="Funkciy" Content="exp(x)" FontSize="16"/>
+            <RadioButton x:Name="sin" GroupName="Funkciy" Content="sin(x)" FontSize="16" IsChecked="True"/>
+            <RadioButton x:Name="cos" GroupName="Funkciy" Content="cos(x)" FontSize="16"/>
+            <RadioButton x:Name="exp" GroupName="Funkciy" Content="exp(x)" FontSize="16"/>
         </StackPanel>
 
         <TextBox x:Name="Itog" Grid.Row="3" Grid.ColumnSpan="4" Margin="10"/>
-        <Button x:Name="Pusk" Grid.Row="4" Grid.Column="1" Content="ПУСК"/>
-        <Button x:Name="Clin" Grid.Row="4" Grid.Column="3" Content="Очистить"/>
+        <Button x:Name="Pusk" Grid.Row="4" Grid.Column="1" Content="ПУСК" Click="Pusk_Click"/>
+        <Button x:Name="Clin" Grid.Row="4" Grid.Column="3" Content="Очистить" Click="Clin_Click"/>
 
     </Grid>
 </Window>
