@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISRPO_Palashicheva_PR3_3__primer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Палашичева 402 ПР3(3) пример" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100*"/>
